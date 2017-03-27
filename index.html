@@ -2,22 +2,102 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Excursion (Coming Soon!)</title>
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah" rel="stylesheet">
-    <link rel="stylesheet" href="resources/css/style.css">
+    <title>PYT Dance Studio</title>
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Navbar and Footer css -->
+    <link rel="stylesheet" href="resources/css/main.css">
+    <!-- page specific css -->
+    <link rel="stylesheet" href="resources/css/home.css">
+    <script src="https://use.fontawesome.com/20225a06d7.js"></script>
   </head>
   <body>
-    <p><h1>Discover hidden places in the world around you</h1></p>
-    <p><a href="#">Download Excursion (Coming soon!)</a></p>
-    <p><video src="resources/videos/excursion.mp4" autoplay loop=""></video></p>
-    <p><h2>Your personal travel guide</h2></p>
-    <p><h3>Excursion remembers places you like, and recommends new points of interest around you.</h3></p>
-    <p><img src="resources/images/camp.jpg" alt="Campsite"></p>
-    <p><img src="resources/images/phone.png" alt="phoneIcon"></p>
-    <p><h2>Coming Soon for iPhone and Android</h2></p>
-    <p><a href="#">Download Excursion (Coming soon!)</a></p>
+
+    <!-- Navbar -->
+    <nav class="nav navbar-default navbar-fixed-top">
+      <div class="container-fluid" role="presentation">
+        <div class="navbar-header">
+          <a class="navbar-brand large-screen-view" href="index.html"><img src="resources/img/logo-color.png" alt="Brand Image"></a>
+          <a class="navbar-brand mobile-screen" href="index.html"><img src="resources/img/logo-mobile.png" alt="Brand Image"></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="about.html">About</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="faculty.html">Faculty</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron" role="presentation">
+      <div class="container" role="presentation">
+        <h1>move your body & your soul</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#">Buy A Course Card</a>
+      </div>
+    </div>
+
+    <!-- Blog-1 -->
+    <div class="blog-preview" id="blog-one">
+      <div class="blog-info-box">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+        <a href="#">Read more on the blog</a>
+      </div>
+    </div>
+
+    <!-- Blog-2 -->
+    <div class="blog-preview" id="blog-two">
+      <div class="blog-info-box">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+        <a href="#">Read more on the blog</a>
+      </div>
+    </div>
+
+    <!-- Blog-3 -->
+    <div class="blog-preview" id="blog-three">
+      <div class="blog-info-box">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+        <a href="#">Read more on the blog</a>
+      </div>
+    </div>
+
+    <!-- Footer -->
     <footer>
-      <p>© Excursion</p>
+      <div class="container-fluid">
+        <div class="row top">
+          <div class="col-sm-4 large-screen-view">
+            <a href="#"><img src="resources/img/logo-color.png" alt="Brand Image"></a>
+          </div>
+          <div class="col-xs-12 col-sm-4 social-media">
+            <div class="so-mi-icons large-screen-view">
+              <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+            <div class="so-mi-icons small-screen-view">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-4 contact large-screen-view">
+            <span><a href="#">Contact Us</a> | <a href="#">Terms & Conditions</a></span>
+          </div>
+        </div>
+        <div class="row bottom">
+          <div class="col-xs-3 col-sm-1"><!-- Alignment Spacer --></div>
+          <div class="col-xs-6 col-sm-10">
+            <div class="contact-info"><span>PYT Dance Studio</span> | <span>14 Bridge Street, New York, NY 10101</span> | <span>212.867.5309</span> | <span>contact@pytdance.com</span></div>
+            <div><span>All Rights Reserved, &copy 2016 PYT Dance Studio<span></div>
+          </div>
+          <div class="col-xs-3 col-sm-1"><!-- Alignment Spacer --></div>
+        </div>
+      </div>
     </footer>
-    </body>
+
+  </body>
 </html>

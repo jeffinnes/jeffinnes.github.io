@@ -1,0 +1,148 @@
+/*Jumbotron styles*/
+.jumbotron {
+  background-image: url("../img/dancers-photo.png");
+  background-size: cover;
+  background-position: center;
+  margin: 50px auto 0 auto;
+}
+
+.jumbotron .container {
+  width: 45rem;
+  margin: 9.4375rem auto 3.125rem auto;
+  color: #ffffff;
+  text-align: center;
+}
+
+.jumbotron p {
+  margin: 2.6875rem 0 5rem 0;
+}
+
+.jumbotron a {
+  padding: 1.25rem 3.125rem;
+  border-radius: 2px;
+  background-color: #f5a623;
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Blog Preview Styles*/
+.blog-preview {
+  height: 40rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.blog-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20rem;
+  width: 25rem;
+  background-color: rgba(120, 73, 225, 0.9);
+  color: #ffffff;
+  padding: 5rem 3rem;
+}
+
+#blog-two .blog-info-box{
+  background-color: rgba(173, 74, 226, 0.9);
+}
+
+.blog-info-box h3 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.blog-info-box span {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin: 1.25rem 0;
+}
+
+.blog-info-box a {
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #ffffff;
+}
+
+#blog-one {
+  background-image: url("../img/graffiti-photo.png");
+}
+
+#blog-two {
+  background-image: url("../img/fire-photo.png");
+}
+
+#blog-three {
+  background-image: url("../img/jump-photo.png");
+}
+
+/*Responsive Rules - Tablet sizes*/
+@media only screen and (max-width: 767px) {
+  .jumbotron .container {
+    width: 31.25rem;
+  }
+
+  /* Blog Rules */
+  .blog-info-box {
+    width: 100%;
+    height: auto;
+    padding: 1.875rem 3.4375rem 1.875rem 1.875rem;
+
+  }
+
+  .blog-info-box h3 {
+    font-size: 1.875rem;
+    line-height: 1.4;
+  }
+
+  .blog-info-box span {
+    margin: 0.625rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+/* Mobile Sizes */
+@media only screen and (max-width: 540px) {
+  .jumbotron{
+    margin-top: 2.5rem;
+  }
+
+  .jumbotron .container {
+    width: 18.5em;
+    margin-top: 7.125rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.875rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 1.625rem 0 3.875rem 0;
+  }
+
+  .jumbotron a {
+    font-size: 1rem;
+  }
+
+  .blog-info-box {
+    padding: 1.25rem;
+  }
+
+  .blog-info-box h3 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  .blog-info-box a {
+    font-size: 1rem;
+  }
+}

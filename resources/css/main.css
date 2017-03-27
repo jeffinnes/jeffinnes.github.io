@@ -1,0 +1,195 @@
+/* Font Families
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*Universal Styles*/
+html {
+  font-size: 16px;
+
+}
+
+h3 {
+  margin: 0;
+}
+
+#current-page {
+  color: #f5a623;
+}
+
+.flex-box {
+  display: flex;
+  width: 100%;
+}
+
+/* Bootstrap Navbar Styles*/
+.navbar-default {
+  background-color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-header .mobile-screen{
+  display: none;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+nav .container-fluid {
+  padding-right: 3.6875rem;
+  padding-left: 3.4375rem;
+}
+
+/* jumbotron Styles */
+.jumbotron h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Footer Styles */
+footer {
+  background-image: url("../img/party-photo.png");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer, footer a {
+  color: #ffffff;
+}
+
+footer .top {
+  height: 3.125rem;
+  background-color: rgba(120, 73, 225, 0.3);
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+footer .so-mi-icons {
+  width: 9.375rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .contact {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer .bottom {
+  height: 15rem;
+  text-align: center;
+}
+
+footer .bottom span{
+  font-size: .875rem;
+  letter-spacing: 0.7px;
+}
+
+footer .contact-info {
+  margin-top: 5rem;
+}
+
+footer .small-screen-view {
+  display: none;
+}
+
+/*Responsive Rules - Tablet sizes*/
+@media only screen and (max-width: 767px) {
+  /* These rules keep the navbar from changing format on small screens */
+  .navbar-right {
+    float: right!important;
+    margin-right: -15px;
+  }
+
+  .navbar-nav>li {
+      float: left;
+  }
+
+  .navbar-header {
+    float: left;
+  }
+
+  .container-fluid>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  /* End navbar rules */
+
+  /*Footer Rules */
+  footer .large-screen-view {
+    display: none;
+  }
+
+  footer .small-screen-view {
+    display: flex;
+    width: 5.4375rem;
+  }
+
+  footer .top {
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+  }
+
+  footer .contact-info {
+    margin-top: 1.875em;
+    margin-bottom: 1rem
+  }
+
+  footer .bottom {
+    height: 8.75rem;
+  }
+
+  footer .bottom span {
+    font-size: .625rem;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* Mobile Sizes */
+@media only screen and (max-width: 540px) {
+
+  .navbar-header .large-screen-view{
+    display: none;
+  }
+
+  .navbar-header .mobile-screen{
+    display: inline;
+  }
+
+  .navbar-default {
+    height: 2.5rem;
+  }
+
+  .navbar-nav {
+    font-size: .75rem;
+    margin-top: 0;
+  }
+
+  nav .container-fluid {
+    padding-right: .625rem;
+    padding-left: .625rem;
+  }
+}
